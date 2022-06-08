@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #4EA379;
+    --text-color: #000;
+}
+
+.footer {
+    background-color: #F2F2F2;
+}
+
+.footer-item {
+    padding: 12px 32px;
+}
+
+.footer-title {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+
+.footer-text {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.footer-list {
+    padding-left: 0;
+}   
+
+.list-element {
+    display: block;
+}
+
+.element-link:hover {
+    background-color: #0095EB;
+    color: white;
+}
+
+.element-link {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 8px 12px;
+    text-align: left;
+}
